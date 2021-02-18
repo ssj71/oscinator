@@ -1,0 +1,19 @@
+This is a simple OSC client (generator) for desktop using PyQT5.
+
+It has 4 buttons and 4 sliders.
+Configure a url and port and it will automatically connect.
+Editing the textboxes below the widgets adjusts the values sent on press/release/slider change etc.
+
+It depends on PyQt5 and python-osc which on ubuntu (20.04) can be installed with
+'''
+sudo apt-get install python3-pyqt5
+pip3 install python-osc
+'''
+
+
+Using liblo tools you can test with 
+'oscdump 9000'
+to see the messages the OSCniator sends.
+
+This code is GPLv3 licensed.
+Enjoy.
