@@ -3,6 +3,7 @@ This is a simple OSC client (generator) for desktop using PyQT5.
 It has 4 buttons and 4 sliders.
 Configure a url and port and it will automatically connect.
 Editing the textboxes below the widgets adjusts the values sent on press/release/slider change etc.
+The defaults are made to work with the generic.omm mapping with my OSC2MIDI application.
 
 It depends on PyQt5 and python-osc which on ubuntu (20.04) can be installed with
 '''
